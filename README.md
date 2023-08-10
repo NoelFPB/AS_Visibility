@@ -49,3 +49,8 @@ Este script se conecta a la API de RIPE NCC para obtener información sobre visi
 
 ```python
 get_all_ip_visibility_for_AS(AS_number = 27773)
+````
+2. Para obtener detalles ROA e IRR para todos los prefijos bajo un número AS::
+```python
+get_roa_irr_per_prefix(AS_number=27773)
+
